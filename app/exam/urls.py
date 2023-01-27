@@ -40,6 +40,6 @@ urlpatterns = [
 
     path('swagger', schema_view.with_ui('swagger', cache_timeout=0), name='swagger_ui'),
     path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='redoc_ui'),
-    # path('json_doc/', schema_view.without_ui(cache_timeout=0), name='json_doc'),
+    #path('json_doc/', schema_view.without_ui(cache_timeout=0), name='json_doc'),
 
 ]
