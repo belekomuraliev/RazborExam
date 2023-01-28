@@ -1,6 +1,6 @@
 django==3.2
 djangorestframework
-django-filter
 drf-yasg
+django-filter
 psycopg2-binary
 gunicorn
